@@ -1,7 +1,5 @@
 ## other
 
-upload btn så jeg har det i koden
-
 omskriv swipetodelete
 
 https://github.com/yggdr4s1l/gulp-scss-2
