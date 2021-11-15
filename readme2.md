@@ -4,12 +4,8 @@ https://developer.nytimes.com/apis
   https://developer.nytimes.com/docs/top-stories-product/1/overview
     dette er det API vi skal bruge
 
-test canban processen på octotripple
-
 omskriv swipetodelete
 test github pages og tilfoej noten til canban
-add gitignore
-
 
 
 
