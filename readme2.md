@@ -1,15 +1,36 @@
 iphone ikoner skal ikke med.
+https://developer.nytimes.com/apis
+  skal brug api key
+  https://developer.nytimes.com/docs/top-stories-product/1/overview
+    dette er det API vi skal bruge
 
 opret en projects pages TODO
   kan teste processen på octotripple repo
-opret gulp processen
-  forbind
-    css minify
-    javascript minify
 omskriv swipetodelete
+test github pages og tilfoej noten til canban
+
+add gitignore
+
+
+
+
+https://github.com/yggdr4s1l/gulp-scss-2
+  branch gulp-scss-2
+
+
+https://inkscape.org/es/release/inkscape-1.1.1/
+  krita kan ikke åbne dem ordenligt
+    arrow left
+    arrow down
+    settings ikon
+    genre ikon
+    delete btn ikon
+    newsbox ikon/archive ikon
+
 
 lav basal htm/css markup
 lav basal dark/light mode uden knap
+lav basal fetch til at check API og API token
 tag muligvis ikonerne fra svg filen, ellers brug fontawesome i stedet
 
 
@@ -18,8 +39,3 @@ https://github.com/rts-cmk-wu06/newsbox-Dragonashes
 https://github.com/yggdr4s1l/Swipetodelete
   swipe to delete
   archive
-https://github.com/yggdr4s1l/gulp-scss-2
-  sass
-https://github.com/yggdr4s1l/gulp-compress
-  js compress
-  kan jeg bruge js merge her ogsaa ??
