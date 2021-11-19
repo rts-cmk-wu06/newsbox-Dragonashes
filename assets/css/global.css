@@ -1,0 +1,13 @@
+* {
+  outline: 1px solid green;
+}
+
+body {
+  margin: 0;
+}
+
+.headerstyle {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  place-items: center;
+}
