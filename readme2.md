@@ -50,3 +50,13 @@ https://developer.nytimes.com/apis
 
 https://github.com/rts-cmk-wu06/newsbox-Dragonashes
 https://github.com/yggdr4s1l/Swipetodelete
+
+
+## NYT TOP STORIES TOKEN
+
+app id
+c54e6b46-8d71-4bb6-bf1d-3c9d0d7cda78
+key
+55NwTRr1fPA9ZChVHPonPlef6sRlaWGG
+secret
+AaWWvU7Ly59MSjn0
