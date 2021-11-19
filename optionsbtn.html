@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
+
+  <style>
+    body {
+      background: red;
+    }
+  </style>
+
+  <img src="assets/image/icon1archive.svg">
+  <img src="assets/image/icon2settings.svg">
+  <img src="assets/image/icon3bin.svg">
+  <img src="assets/image/icon4zoom.svg">
+  <img src="assets/image/icon5genre.svg">
+  <img src="assets/image/icon6arrowleft.svg">
+  <img src="assets/image/icon7arrowdown.svg">
+  <img src="assets/image/icon8arrowright.svg">
+  <img src="assets/image/profile1.svg">
+  <img src="assets/image/profile2.svg">
 
 
   <style>
@@ -44,15 +63,15 @@
       transition: .4s;
     }
 
-    input:checked + .slider {
+    input:checked+.slider {
       background-color: #2196F3;
     }
 
-    input:focus + .slider {
+    input:focus+.slider {
       box-shadow: 0 0 1px #2196F3;
     }
 
-    input:checked + .slider:before {
+    input:checked+.slider:before {
       transform: translateX(26px);
     }
 
@@ -64,30 +83,29 @@
     .slider.round:before {
       border-radius: 50%;
     }
-    </style>
-    </head>
-    <body>
+  </style>
 
 
-    <label class="switch">
-      <input type="checkbox">
-      <span class="slider"></span>
-    </label>
+  <label class="switch">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
 
-    <label class="switch">
-      <input type="checkbox" checked>
-      <span class="slider"></span>
-    </label><br><br>
+  <label class="switch">
+    <input type="checkbox" checked>
+    <span class="slider"></span>
+  </label><br><br>
 
-    <label class="switch">
-      <input type="checkbox">
-      <span class="slider round"></span>
-    </label>
+  <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label>
 
-    <label class="switch">
-      <input type="checkbox" checked>
-      <span class="slider round"></span>
-    </label>
+  <label class="switch">
+    <input type="checkbox" checked>
+    <span class="slider round"></span>
+  </label>
 
 </body>
+
 </html>
