@@ -1,111 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<link rel="preload stylesheet" as=style href=assets/css/global.css>
+<style>
+  .testfont1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+  }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+  .testfont2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+</style>
+<div class=testfont1>testfont europa</div>
+<div class=testfont2>testfont rift-soft</div>
 
-<body>
+<h1>header1</h1>
+<h2>header2</h2>
+<h3>card title aka h3</h3>
+<div class=cardtext>card text</div>
 
-  <style>
-    body {
-      background: red;
-    }
-  </style>
+<div>
+  <div style=background:#87BCBF>a</div>
+  <div style=background:#D97D54>a</div>
+  <div style=background:#324755>a</div>
+  <div style=background:#D95454>a</div>
+  <div style=background:#1B1C20>a</div>
+  <div style=background:#6E8CA0>a</div>
+  <div style=background:#FFFFFF>a</div>
+  <div style=background:#F0F3F4>a</div>
+  <div style=background:#C8D1D3>a</div>
+  <div style=background:#B9B0A2>a</div>
+</div>
 
-  <img src="assets/image/icon1archive.svg">
-  <img src="assets/image/icon2settings.svg">
-  <img src="assets/image/icon3bin.svg">
-  <img src="assets/image/icon4zoom.svg">
-  <img src="assets/image/icon5genre.svg">
-  <img src="assets/image/icon6arrowleft.svg">
-  <img src="assets/image/icon7arrowdown.svg">
-  <img src="assets/image/icon8arrowright.svg">
-  <img src="assets/image/profile1.svg">
-  <img src="assets/image/profile2.svg">
+<style>
+  body {
+    background: red;
+  }
+</style>
 
-
-  <style>
-    .switch {
-      position: relative;
-      display: inline-block;
-      width: 60px;
-      height: 34px;
-    }
-
-    .switch input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      transition: .4s;
-    }
-
-    .slider:before {
-      position: absolute;
-      content: "";
-      height: 26px;
-      width: 26px;
-      left: 4px;
-      bottom: 4px;
-      background-color: white;
-      transition: .4s;
-    }
-
-    input:checked+.slider {
-      background-color: #2196F3;
-    }
-
-    input:focus+.slider {
-      box-shadow: 0 0 1px #2196F3;
-    }
-
-    input:checked+.slider:before {
-      transform: translateX(26px);
-    }
-
-    /* Rounded sliders */
-    .slider.round {
-      border-radius: 34px;
-    }
-
-    .slider.round:before {
-      border-radius: 50%;
-    }
-  </style>
-
-
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider"></span>
-  </label>
-
-  <label class="switch">
-    <input type="checkbox" checked>
-    <span class="slider"></span>
-  </label><br><br>
-
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-
-  <label class="switch">
-    <input type="checkbox" checked>
-    <span class="slider round"></span>
-  </label>
-
-</body>
-
-</html>
+<img src="assets/image/icon1archive.svg">
+<img src="assets/image/icon2settings.svg">
+<img src="assets/image/icon3bin.svg">
+<img src="assets/image/icon4zoom.svg">
+<img src="assets/image/icon5genre.svg">
+<img src="assets/image/icon6arrowleft.svg">
+<img src="assets/image/icon7arrowdown.svg">
+<img src="assets/image/icon8arrowright.svg">
+<img src="assets/image/profile1.svg">
+<img src="assets/image/profile2.svg">

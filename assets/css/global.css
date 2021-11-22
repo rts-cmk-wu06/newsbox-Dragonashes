@@ -11,3 +11,19 @@ body {
   grid-template-columns: 1fr 4fr 1fr;
   place-items: center;
 }
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.cardtext {
+  font-size: 15px;
+}
