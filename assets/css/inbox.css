@@ -28,28 +28,10 @@
 
 
 .genreborder {
-  background: yellow;
+  background: #FFFFFF;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: grid;
   place-items: center;
-}
-
-
-.centersearch {
-  display: grid;
-  place-items: center;
-}
-
-.searchbg {
-  background: blue;
-  place-items: center;
-  display: grid;
-  padding: 10px 15px 10px 15px;
-}
-
-input {
-  background: blue;
-  border: none;
 }
