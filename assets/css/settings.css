@@ -1,0 +1,115 @@
+.settings {
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(2, 35px);
+  margin: 60px;
+}
+
+.settingsh2 {
+  color: #87BCBF;
+}
+
+.maingridcategoriessubcenter {
+  color: #1B1C20;
+}
+
+body {
+  background: #F0F3F4;
+  color: #6E8CA0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  place-self: end;
+}
+
+input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: grey;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: white;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background: #87BCBF;
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+}
+
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+
+
+.maingrid {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto;
+  place-items: center;
+}
+
+.maingridcategories {
+  width: 100%;
+  background: #FFFFFF;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 22px;
+}
+
+.togglebtn {
+  border-radius: 34px;
+  width: 170px;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #6E8CA0;
+}
+
+
+.maingrid div:first-of-type {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.maingrid div:last-of-type {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.maingridcategoriessubcenter {
+  align-self: center;
+}

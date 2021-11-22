@@ -1,125 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsbox - Settings</title>
   <link rel="preload stylesheet" as=style href=assets/css/global.css>
   <link rel="preload stylesheet" as=style href=assets/css/settings.css>
-
+  <link rel="preload stylesheet" as=style href=assets/css/preferscolors.css>
+  <script src="assets/js/preferscolors.js" type="text/javascript" async></script>
 </head>
-
 <body>
-
   <header class="headerstyle">
-    <img src="assets/image/icon6arrowleft.svg">
+    <a href="inbox.html"><img src="assets/image/icon6arrowleft.svg"></a>
     <h1>News settings</h1>
     <div role="cell"></div>
   </header>
-
-
-  Manage
-  Categories
-
-  EUROPE
-  HEALTH
-  SPORT
-  BUSINESS
-  TRAVEL
-
-  <div style="
-  border-radius:34px;
-  width: 170px;
-  padding: 20px;
-  text-align: center;
-  border: 3px solid grey;
-  ">TOGGLE DARK MODE</div>
-
-  Version 4.8.15.16.23.42
-
-
-  <style>
-    .switch {
-      position: relative;
-      display: inline-block;
-      width: 60px;
-      height: 34px;
-    }
-
-    input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: grey;
-      transition: .4s;
-    }
-
-    .slider:before {
-      position: absolute;
-      content: "";
-      height: 26px;
-      width: 26px;
-      left: 4px;
-      bottom: 4px;
-      background: white;
-      transition: .4s;
-    }
-
-    input:checked+.slider {
-      background: #2196F3;
-    }
-
-    input:checked+.slider:before {
-      transform: translateX(26px);
-    }
-
-    .slider {
-      border-radius: 34px;
-    }
-
-    .slider:before {
-      border-radius: 50%;
-    }
-  </style>
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-  <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-  <!-- test, rm -->
-  <label class="switch">
-    <input type="checkbox" checked>
-    <span class="slider round"></span>
-  </label>
-
-
-
-
+  <div class="settings">
+    <h2 class="testfont1 settingsh2">Manage</h2>
+    <h3>Categories</h3>
+  </div>
+  <div class="maingrid">
+    <div class="maingridcategories">
+      <div class="maingridcategoriessubcenter">EUROPE</div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="maingridcategories">
+      <div class="maingridcategoriessubcenter">HEALTH</div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="maingridcategories">
+      <div class="maingridcategoriessubcenter">SPORT</div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="maingridcategories">
+      <div class="maingridcategoriessubcenter">BUSINESS</div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="maingridcategories">
+      <div class="maingridcategoriessubcenter">TRAVEL</div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+  <div style="display: grid;place-items: center;margin-top: 60px;margin-bottom: 60px;gap: 60px;">
+    <!-- <div class="togglebtn">TOGGLE DARK MODE</div> -->
+    <button class="togglebtn toggle-button js-mode-toggle">TOGGLE DARK MODE</button>
+    <div>Version 4.8.15.16.23.42</div>
+  </div>
 </body>
-
 </html>
