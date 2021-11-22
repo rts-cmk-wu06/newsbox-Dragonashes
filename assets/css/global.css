@@ -6,10 +6,23 @@ body {
   margin: 0;
 }
 
+.testfont1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.testfont2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
 .headerstyle {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   place-items: center;
+  background: #fff;
 }
 
 
