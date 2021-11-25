@@ -1,10 +1,15 @@
 fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
   .then(response => response.json())
   .then(data => {
-  document.querySelector("#genre1").innerHTML =
-    "<div class=genreplacement><div class=genreborder><img src=assets/image/icon5genre.svg></div><h2>" +
-      data.results[0].section +
-    "</h2><img src=assets/image/icon7arrowdown.svg class=genreplacement-right></div>"
+  document.querySelector("#genre1").innerHTML = `
+    <div class=genreplacement>
+      <div class=genreborder>
+        <img src=assets/image/icon5genre.svg>
+      </div>
+      <h2>${data.results[0].section}</h2>
+      <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
+    </div>
+  `
   data.results.forEach(myFunction);
   function myFunction(item, index) {
     if (item.section == "world") {
@@ -21,10 +26,15 @@ fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9
 fetch("https://api.nytimes.com/svc/topstories/v2/health.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
   .then(response => response.json())
   .then(data => {
-  document.querySelector("#genre2").innerHTML =
-    "<div class=genreplacement><div class=genreborder><img src=assets/image/icon5genre.svg></div><h2>" +
-    data.section +
-    "</h2><img src=assets/image/icon7arrowdown.svg class=genreplacement-right></div>"
+  document.querySelector("#genre2").innerHTML = `
+    <div class=genreplacement>
+      <div class=genreborder>
+        <img src=assets/image/icon5genre.svg>
+      </div>
+      <h2>${data.section}</h2>
+      <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
+    </div>
+  `
   data.results.forEach(myFunction);
   function myFunction(item, index) {
     if (item.section == "health" || item.section == "well") {
@@ -41,10 +51,15 @@ fetch("https://api.nytimes.com/svc/topstories/v2/health.json?api-key=55NwTRr1fPA
 fetch("https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
   .then(response => response.json())
   .then(data => {
-  document.querySelector("#genre3").innerHTML =
-    "<div class=genreplacement><div class=genreborder><img src=assets/image/icon5genre.svg></div><h2>" +
-      data.section +
-    "</h2><img src=assets/image/icon7arrowdown.svg class=genreplacement-right></div>"
+  document.querySelector("#genre3").innerHTML = `
+    <div class=genreplacement>
+      <div class=genreborder>
+        <img src=assets/image/icon5genre.svg>
+      </div>
+      <h2>${data.section}</h2>
+      <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
+    </div>
+  `
   data.results.forEach(myFunction);
   function myFunction(item, index) {
     if (item.section == "sports") {
@@ -61,10 +76,15 @@ fetch("https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=55NwTRr1fPA
 fetch("https://api.nytimes.com/svc/topstories/v2/politics.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
   .then(response => response.json())
   .then(data => {
-  document.querySelector("#genre4").innerHTML =
-    "<div class=genreplacement><div class=genreborder><img src=assets/image/icon5genre.svg></div><h2>" +
-      data.section +
-    "</h2><img src=assets/image/icon7arrowdown.svg class=genreplacement-right></div>"
+  document.querySelector("#genre4").innerHTML = `
+    <div class=genreplacement>
+      <div class=genreborder>
+        <img src=assets/image/icon5genre.svg>
+      </div>
+      <h2>${data.section}</h2>
+      <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
+    </div>
+  `
   data.results.forEach(myFunction);
   function myFunction(item, index) {
     if (item.section == "us") {
@@ -81,10 +101,15 @@ fetch("https://api.nytimes.com/svc/topstories/v2/politics.json?api-key=55NwTRr1f
 fetch("https://api.nytimes.com/svc/topstories/v2/travel.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
   .then(response => response.json())
   .then(data => {
-  document.querySelector("#genre5").innerHTML =
-    "<div class=genreplacement><div class=genreborder><img src=assets/image/icon5genre.svg></div><h2>" +
-      data.section +
-    "</h2><img src=assets/image/icon7arrowdown.svg class=genreplacement-right></div>"
+  document.querySelector("#genre5").innerHTML = `
+    <div class=genreplacement>
+      <div class=genreborder>
+        <img src=assets/image/icon5genre.svg>
+      </div>
+      <h2>${data.section}</h2>
+      <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
+    </div>
+  `
   data.results.forEach(myFunction);
   function myFunction(item, index) {
     if (item.section == "travel") {
