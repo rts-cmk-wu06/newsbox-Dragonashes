@@ -83,7 +83,7 @@ input:checked+.slider:before {
 
 .maingridcategories {
   width: 100%;
-  background: #FFFFFF;
+  background: #c5c5c5;
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
