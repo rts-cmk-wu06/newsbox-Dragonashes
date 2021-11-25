@@ -15,7 +15,7 @@ body {
 }
 
 .jokeitem {
-  background: green;
+  background: #fff;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -24,7 +24,7 @@ body {
 }
 
 .deleteitem {
-  background: pink;
+  background: #87bcbf;
   justify-content: center;
   grid-column-start: 2;
   grid-column-end: 3;

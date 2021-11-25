@@ -3,7 +3,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
   .then(users => {
     users.forEach(element => {
       const div1 = document.createElement("div")
-      div1.classList.add("container")
+      div1.classList.add("container", "placearticle")
       div1.setAttribute("id", element.id)
       const div2 = document.createElement("div")
       div2.classList.add("deleteitem")

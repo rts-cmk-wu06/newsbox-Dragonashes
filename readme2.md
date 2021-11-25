@@ -3,11 +3,23 @@
 ## beskrivelse
 
 Fetch fra New York Times API
+ufærdigt swipe-to-delete
 Dark Mode
+gulp
+  minify
+  merge files
 
 ## todo
 
-https://github.com/yggdr4s1l/gulp-scss-2
+swipetodelete title og summary tekst
+
+## dev setup
+
+install node.js
+npm init
+npm i gulp gulp-sass sass --save-dev
+npm i gulp-purgecss --save
+npm i gulp-concat gulp-minify --save-dev
 
 ## links
 

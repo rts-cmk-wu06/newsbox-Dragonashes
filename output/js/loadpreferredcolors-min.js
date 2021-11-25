@@ -1,0 +1,1 @@
+const STORAGE_KEY="user-color-scheme",applySetting=e=>{let t=e||localStorage.getItem(STORAGE_KEY);t&&document.documentElement.setAttribute("data-user-color-scheme",t)};applySetting();
