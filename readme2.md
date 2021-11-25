@@ -8,16 +8,6 @@ Dark Mode
 ## todo
 
 https://github.com/yggdr4s1l/gulp-scss-2
-swipetodelete
-  jokeitem -> users
-  deleteitem -> archiveitem
-  deleteall -> Remove
-  tilfoej ikoner til swipetodelete
-
-test paa telefonen
-ipconfig
-ip:port
-http://< Your IP Address >:5500/index.html
 
 ## links
 
