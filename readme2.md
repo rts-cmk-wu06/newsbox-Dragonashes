@@ -19,8 +19,6 @@ ipconfig
 ip:port
 http://< Your IP Address >:5500/index.html
 
-
-
 ## links
 
 https://github.com/rts-cmk-wu06/newsbox-Dragonashes
@@ -37,7 +35,6 @@ key
 55NwTRr1fPA9ZChVHPonPlef6sRlaWGG
 secret
 AaWWvU7Ly59MSjn0
-
 
 ## genres
 
