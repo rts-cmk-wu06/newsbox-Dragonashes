@@ -1,25 +1,9 @@
 ## other
 
-start med fetch
-  skal have token api key
-
-omskriv swipetodelete
-
 https://github.com/yggdr4s1l/gulp-scss-2
   branch gulp-scss-2
 
-tag muligvis ikonerne fra svg filen, ellers brug fontawesome i stedet
-https://inkscape.org/es/release/inkscape-1.1.1/
-  krita kan ikke åbne dem ordenligt
-    arrow left
-    arrow down
-    settings ikon
-    genre ikon
-    delete btn ikon
-    newsbox ikon/archive ikon
-
 ## husk
-
 
 test paa telefonen
 ipconfig
@@ -60,3 +44,23 @@ key
 55NwTRr1fPA9ZChVHPonPlef6sRlaWGG
 secret
 AaWWvU7Ly59MSjn0
+
+
+## eksempel
+
+world
+health
+sports
+politics
+travel
+
+https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG
+
+opret archive page styling
+  header fra inbox
+  lav anchor fra inbox til archive
+
+<!--
+https://piccalil.li/tutorial/create-a-user-controlled-dark-or-light-mode/
+https://codepen.io/piccalilli/pen/VOELMZ
+-->

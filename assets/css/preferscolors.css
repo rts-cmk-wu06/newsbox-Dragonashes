@@ -4,7 +4,7 @@
   --color-dark-alpha: rgba(0, 0, 0, 0.1);
   --color-light: #efefef;
   --color-light-alpha: rgba(255, 255, 255, 0.9);
-  --background: #efefef;
+  --background: #fff;
   --text-color: #141414;
   --button-background: var(--color-dark);
   --button-color: var(--color-light);

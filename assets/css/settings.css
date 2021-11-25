@@ -74,7 +74,6 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
-
 .maingrid {
   display: grid;
   grid-template-columns: 10% 80% 10%;
@@ -93,12 +92,11 @@ input:checked+.slider:before {
 
 .togglebtn {
   border-radius: 34px;
-  width: 170px;
+  width: 190px;
   padding: 20px;
   text-align: center;
   border: 3px solid #6E8CA0;
 }
-
 
 .maingrid div:first-of-type {
   border-top-left-radius: 20px;
@@ -112,4 +110,12 @@ input:checked+.slider:before {
 
 .maingridcategoriessubcenter {
   align-self: center;
+}
+
+.lowerplacement {
+  display: grid;
+  place-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  gap: 60px;
 }
