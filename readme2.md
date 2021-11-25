@@ -12,6 +12,8 @@ gulp
 ## todo
 
 swipetodelete title og summary tekst
+kan jeg erstatte swipetodelete jsonplaceholder med newyork API
+  test bare med 1 categori fetch til at starte med
 
 ## dev setup
 
