@@ -12,7 +12,6 @@ fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9
           <h3 class="placearticleitem2">${data.results[index].title}</h3>
           <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
         </div>
-        <br><br>
       `;
     }
   }
@@ -22,9 +21,6 @@ fetch("https://api.nytimes.com/svc/topstories/v2/health.json?api-key=55NwTRr1fPA
     "<div class=genreplacement><div class=genreborder><img src=assets/image/icon5genre.svg></div><h2>" +
     data.section +
     "</h2><img src=assets/image/icon7arrowdown.svg class=genreplacement-right></div>"
-
-
-
   data.results.forEach(myFunction);
   function myFunction(item, index) {
     if (item.section == "health" || item.section == "well") {
@@ -34,7 +30,6 @@ fetch("https://api.nytimes.com/svc/topstories/v2/health.json?api-key=55NwTRr1fPA
           <h3 class="placearticleitem2">${data.results[index].title}</h3>
           <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
         </div>
-        <br><br>
       `;
     }
   }
@@ -53,7 +48,6 @@ fetch("https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=55NwTRr1fPA
           <h3 class="placearticleitem2">${data.results[index].title}</h3>
           <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
         </div>
-        <br><br>
       `;
     }
   }
@@ -72,7 +66,6 @@ fetch("https://api.nytimes.com/svc/topstories/v2/politics.json?api-key=55NwTRr1f
           <h3 class="placearticleitem2">${data.results[index].title}</h3>
           <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
         </div>
-        <br><br>
       `;
     }
   }
@@ -91,7 +84,6 @@ fetch("https://api.nytimes.com/svc/topstories/v2/travel.json?api-key=55NwTRr1fPA
           <h3 class="placearticleitem2">${data.results[index].title}</h3>
           <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
         </div>
-        <br><br>
       `;
     }
   }
