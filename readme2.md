@@ -11,7 +11,16 @@ gulp
 
 ## todo
 
-settings filter knap skal laves
+settings filter knap skal laves - se loadpreferredcolors.js
+  værdi true/false
+    test med simpel checkbox først
+  filtersettings.js
+  loadfilter.js
+  inboxfetch.js
+    if condition
+js sample start
+  localstorage3
+    lav flere knapper
 
 ## dev setup
 

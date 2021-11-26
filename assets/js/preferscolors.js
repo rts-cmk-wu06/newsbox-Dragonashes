@@ -6,7 +6,6 @@ const getCSSCustomProp = (propKey) => {
   return response;
 };
 const STORAGE_KEY = 'user-color-scheme';
-const COLOR_MODE_KEY = '--color-mode';
 const applySetting = passedSetting => {
   let currentSetting = passedSetting || localStorage.getItem(STORAGE_KEY);
   if (currentSetting) {
@@ -17,7 +16,7 @@ const toggleSetting = () => {
   let currentSetting = localStorage.getItem(STORAGE_KEY);
   switch (currentSetting) {
     case null:
-      currentSetting = getCSSCustomProp(COLOR_MODE_KEY) === 'dark' ? 'light' : 'dark';
+      currentSetting = getCSSCustomProp('--color-mode') === 'dark' ? 'light' : 'dark';
       break;
     case 'light':
       currentSetting = 'dark';

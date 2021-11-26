@@ -19,36 +19,41 @@
 //       document.querySelector("main").appendChild(div1)
 //     });
 //   })
-fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
-  .then(response => response.json())
-  .then(data => {
-  document.querySelector("#genre1").innerHTML = `
-    <div class=genreplacement>
-      <div class=genreborder>
-        <img src=assets/image/icon5genre.svg>
-      </div>
-      <h2>${data.results[0].section}</h2>
-      <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
-    </div>
-  `
-  data.results.forEach(myFunction);
-  function myFunction(item, index) {
-    if (item.section == "world") {
-      // #world
-      document.querySelector("main").innerHTML += `
-        <div class="container" id="${index}">
-          <div class=deleteitem><img src='assets/image/icon1archive.svg'></div>
-          <div class="jokeitem animate">
-            <img src="assets/image/profile2.svg" class="placearticleitem1">
-            <h3 class="placearticleitem2">${data.results[index].title}</h3>
-            <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
-          </div>
-        </div>
-      `;
-    }
-  }
-});
 
+var checked = JSON.parse(localStorage.getItem('checkbox1zaal1'))
+console.log(checked)
+if (checked == true) {
+  // data.results[0].section
+  fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG")
+    .then(response => response.json())
+    .then(data => {
+      document.querySelector("#genre1").innerHTML = `
+        <div class=genreplacement>
+          <div class=genreborder>
+            <img src=assets/image/icon5genre.svg>
+          </div>
+          <h2>${data.section}</h2>
+          <img src=assets/image/icon7arrowdown.svg class=genreplacement-right>
+        </div>
+      `
+      data.results.forEach(myFunction);
+      function myFunction(item, index) {
+        if (item.section == "world") {
+          // #world
+          document.querySelector("main").innerHTML += `
+            <div class="container" id="${index}">
+              <div class=deleteitem><img src='assets/image/icon1archive.svg'></div>
+              <div class="jokeitem animate">
+                <img src="assets/image/profile2.svg" class="placearticleitem1">
+                <h3 class="placearticleitem2">${data.results[index].title}</h3>
+                <span class="cardtext placearticleitem2">${data.results[index].abstract}</span>
+              </div>
+            </div>
+          `;
+        }
+      }
+    });
+}
 
 
 

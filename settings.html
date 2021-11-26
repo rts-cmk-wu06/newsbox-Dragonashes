@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsbox - Settings</title>
   <link rel="preload stylesheet" as=style href=output/css/global.css>
   <link rel="preload stylesheet" as=style href=output/css/settings.css>
+
   <link rel="preload stylesheet" as=style href=output/css/preferscolors.css>
   <script src="output/js/preferscolors-min.js" type="text/javascript" async></script>
+
 </head>
+
 <body>
   <header class="headerstyle">
     <a href="inbox.html"><img src="assets/image/icon6arrowleft.svg"></a>
@@ -19,9 +23,32 @@
     <h2 class="testfont1 settingsh2">Manage</h2>
     <h3>Categories</h3>
   </div>
+
+
+  <input type="checkbox" id="checkbox1zaal1" onclick="save()">
+  <script>
+    function save() {
+      var checkbox = document.getElementById('checkbox1zaal1')
+      localStorage.setItem('checkbox1zaal1', checkbox.checked)
+    }
+    function load() {
+      var checked = JSON.parse(localStorage.getItem('checkbox1zaal1'))
+      document.getElementById("checkbox1zaal1").checked = checked
+    }
+    load();
+  </script>
+  <style>
+    #checkbox1zaal1 {
+      width: 50px;
+      height: 50px;
+      opacity: 1;
+    }
+  </style>
+
+
   <div class="maingrid">
     <div class="maingridcategories">
-      <div class="maingridcategoriessubcenter">EUROPE</div>
+      <div class="maingridcategoriessubcenter">WORLD</div>
       <label class="switch">
         <input type="checkbox">
         <span class="slider round"></span>
@@ -61,4 +88,5 @@
     <div>Version 4.8.15.16.23.42</div>
   </div>
 </body>
+
 </html>
