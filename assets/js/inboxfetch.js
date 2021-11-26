@@ -36,7 +36,7 @@ fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=55NwTRr1fPA9
     if (item.section == "world") {
       // #world
       document.querySelector("main").innerHTML += `
-        <div class="container">
+        <div class="container" id="${index}">
           <div class=deleteitem><img src='assets/image/icon1archive.svg'></div>
           <div class="jokeitem animate">
             <img src="assets/image/profile2.svg" class="placearticleitem1">

@@ -78,3 +78,24 @@ input {
   display: block;
   place-self: baseline;
 }
+
+/* inbox/archive swipe buttons */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-auto-rows: 75px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.container>* {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.placearticleitem1 {
+  place-self: center;
+  grid-column: 1;
+  grid-row: 1/span 2;
+}

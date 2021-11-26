@@ -11,9 +11,8 @@ gulp
 
 ## todo
 
-swipetodelete title og summary tekst
-kan jeg erstatte swipetodelete jsonplaceholder med newyork API
-  test bare med 1 categori fetch til at starte med
+archive delete knap kan ses hele tiden
+archive delete sletter alt localstorage fordi id attribute ikke sættes.
 
 ## dev setup
 

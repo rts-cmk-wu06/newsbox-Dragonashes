@@ -49,6 +49,3 @@ document.querySelector("main").addEventListener("touchstart", (e) => {
     }, 900)
   }, { passive: true })
 }, { passive: true })
-document.querySelector(".deleteall").onclick = () => {
-  localStorage.clear()
-}
