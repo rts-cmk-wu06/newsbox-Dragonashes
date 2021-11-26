@@ -11,8 +11,7 @@ gulp
 
 ## todo
 
-archive delete knap kan ses hele tiden
-archive delete sletter alt localstorage fordi id attribute ikke sættes.
+settings filter knap skal laves
 
 ## dev setup
 
