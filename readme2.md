@@ -11,16 +11,12 @@ gulp
 
 ## todo
 
-settings filter knap skal laves - se loadpreferredcolors.js
-  værdi true/false
-    test med simpel checkbox først
-  filtersettings.js
-  loadfilter.js
-  inboxfetch.js
-    if condition
-js sample start
-  localstorage3
-    lav flere knapper
+lav unificeret fetch
+  skal bruge samme ID system som jeg bruger til archive.html
+settings filter
+  mangler andre kategorier
+  mangler slider
+
 
 ## dev setup
 
