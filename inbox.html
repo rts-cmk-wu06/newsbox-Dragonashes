@@ -5,16 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsbox - Inbox</title>
-  <link rel="preload stylesheet" as=style href=assets/css/global.css>
-  <link rel="preload stylesheet" as=style href=assets/css/inbox.css>
-  <script src="assets/js/inboxfetch.js" type="text/javascript" async></script>
-  <script src="assets/js/inboxfunc.js" type="text/javascript" async></script>
+  <link rel="preload stylesheet" as=style href=output/css/global.css>
+  <link rel="preload stylesheet" as=style href=output/css/inbox.css>
+  <script src="output/js/inboxfetch-min.js" type="text/javascript" async></script>
+
+  <link rel="preload stylesheet" as=style href=output/css/preferscolors.css>
+  <script src="output/js/loadpreferredcolors-min.js" type="text/javascript" async></script>
+
+  <link rel="preload stylesheet" as=style href=output/css/local.css>
+  <script src="output/js/index-min.js" type="text/javascript" async></script>
+  <!-- <script src="output/js/indexfetch-min.js" type="text/javascript" async></script> -->
 </head>
 
 <body>
 
   <header class="headerstyle">
-    <img src="assets/image/icon1archive.svg">
+    <a href="archive.html"><img src="assets/image/icon1archive.svg"></a>
     <h1>Newsbox</h1>
     <a href="settings.html"><img src="assets/image/icon2settings.svg"></a>
   </header>
@@ -28,57 +34,22 @@
     </div>
   </div>
 
-  <hr>
+  <div id="genre1"></div>
+  <div id="world"></div>
 
-  <!-- deletebtn <img src="assets/image/icon1archive.svg"> -->
+  <main></main>
 
-  <div class=genreplacement>
-    <div class=genreborder><img src="assets/image/icon5genre.svg"></div>
+  <div id="genre2"></div>
+  <div id="health"></div>
 
-    <h2>HEALTH</h2>
-    <img src="assets/image/icon7arrowdown.svg" class=genreplacement-right>
-  </div>
+  <div id="genre3"></div>
+  <div id="sports"></div>
 
-  <hr>
+  <div id="genre4"></div>
+  <div id="politics"></div>
 
-  <div class="placearticle">
-    <img src="assets/image/profile2.svg" class="placearticleitem1">
-    <h3 class="placearticleitem2">Headline</h3>
-    <span class="cardtext placearticleitem2">Surfing is a surface water sport in which the wave rider, referred to as...</span>
-  </div>
-  <div class="placearticle">
-    <img src="assets/image/profile2.svg" class="placearticleitem1">
-    <h3 class="placearticleitem2">Headline</h3>
-    <span class="cardtext placearticleitem2">Surfing is a surface water sport in which the wave rider, referred to as...</span>
-  </div>
-
-  <div class=genreplacement>
-    <div class=genreborder><img src="assets/image/icon5genre.svg"></div>
-    <h2>SPORT</h2>
-    <img src="assets/image/icon8arrowright.svg" class=genreplacement-right>
-  </div>
-
-  <div class=genreplacement>
-    <div class=genreborder><img src="assets/image/icon5genre.svg"></div>
-    <h2>TRAVEL</h2>
-    <img src="assets/image/icon7arrowdown.svg" class=genreplacement-right>
-  </div>
-
-  <div class="placearticle">
-    <img src="assets/image/profile2.svg" class="placearticleitem1">
-    <h3 class="placearticleitem2">Headline</h3>
-    <span class="cardtext placearticleitem2">Surfing is a surface water sport in which the wave rider, referred to as...</span>
-  </div>
-  <div class="placearticle">
-    <img src="assets/image/profile2.svg" class="placearticleitem1">
-    <h3 class="placearticleitem2">Headline</h3>
-    <span class="cardtext placearticleitem2">Surfing is a surface water sport in which the wave rider, referred to as...</span>
-  </div>
-  <div class="placearticle">
-    <img src="assets/image/profile2.svg" class="placearticleitem1">
-    <h3 class="placearticleitem2">Headline</h3>
-    <span class="cardtext placearticleitem2">Surfing is a surface water sport in which the wave rider, referred to as...</span>
-  </div>
+  <div id="genre5"></div>
+  <div id="travel"></div>
 
 </body>
 

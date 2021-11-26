@@ -1,6 +1,3 @@
-/* * {
-  outline: 1px solid green;
-} */
 
 body {
   margin: 0;
@@ -31,6 +28,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
+  color: black;
 }
 
 h2 {
@@ -59,18 +57,16 @@ h3 {
 
 .searchbg {
   width: 80%;
-  background: blue;
+  grid-template-columns: 1fr;
+  background: #ededed;
   place-items: center;
   display: grid;
-  /* grid-template-columns: 70% 20px; */
   padding: 10px 30px 10px 30px;
-  outline: 1px solid red;
 }
 
 input {
   width: 100%;
   height: 20px;
-  background: yellow;
   border: none;
   grid-column:1;
 }
@@ -79,7 +75,27 @@ input {
   grid-column: 2;
   width: 20px;
   height: 20px;
-  background: yellow;
   display: block;
   place-self: baseline;
+}
+
+/* inbox/archive swipe buttons */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-auto-rows: 75px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.container>* {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.placearticleitem1 {
+  place-self: center;
+  grid-column: 1;
+  grid-row: 1/span 2;
 }

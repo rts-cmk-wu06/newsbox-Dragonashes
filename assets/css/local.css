@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+
+.jokeitem {
+  background: #fff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 15px;
+}
+
+.deleteitem {
+  background: #87bcbf;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.animate {
+  transition: 1s ease;
+}
+
+.fadeout {
+  animation: fade 1s;
+  transform: translate(-800px);
+  transition-timing-function: ease-out;
+  transition: transform 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1
+  }
+  to {
+    opacity: 0
+  }
+}
