@@ -11,6 +11,8 @@ gulp
 
 ## todo
 
+har local og global css filer, hvad er forskellen ???
+
 lav unificeret fetch
   skal bruge samme ID system som jeg bruger til archive.html
 settings filter
