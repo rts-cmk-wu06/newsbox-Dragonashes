@@ -1,0 +1,1 @@
+function save(){var e=document.getElementById("checkbox1zaal1");localStorage.setItem("checkbox1zaal1",e.checked)}function load(){var e=JSON.parse(localStorage.getItem("checkbox1zaal1"));document.getElementById("checkbox1zaal1").checked=e}load();

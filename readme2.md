@@ -18,6 +18,10 @@ settings filter
   mangler slider
 
 hvis jeg sletter et item i archive, og tilføjer nye unikke items fra inbox, så kommer de gamle items tilbage.
+  kan være det er meningen pga. jeg ikke opdaterer inbox.html så JSON bliver gemt
+    test om det er det
+
+inbox har overflow i iphone simulering
 
 ## dev setup
 
