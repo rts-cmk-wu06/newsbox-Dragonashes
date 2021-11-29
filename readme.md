@@ -14,11 +14,7 @@ gulp
 lav unificeret fetch
   skal bruge samme ID system som jeg bruger til archive.html
 settings filter
-  mangler andre kategorier
   mangler slider
-
-hvis jeg sletter et item i archive, og tilføjer nye unikke items fra inbox, så kommer de gamle items tilbage.
-  kan være det er meningen pga. jeg ikke opdaterer inbox.html så JSON bliver gemt
 
 ## dev setup
 

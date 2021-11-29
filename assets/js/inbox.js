@@ -7,7 +7,7 @@ let touchcoordend
 if (localStorage.getItem("deleteditems")) {
   trash = JSON.parse(localStorage.getItem("deleteditems"))
 }
-document.querySelector("main").addEventListener("touchstart", (e) => {
+document.querySelector("#world").addEventListener("touchstart", (e) => {
   touchelement = e.target
   parentelement = e.target.parentElement
   touchcoordstart = Math.floor(e.touches[0].clientX)
