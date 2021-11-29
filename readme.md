@@ -3,7 +3,7 @@
 ## beskrivelse
 
 Fetch fra New York Times API
-ufærdigt swipe-to-delete
+swipe-to-delete
 Dark Mode
 gulp
   minify
@@ -44,16 +44,3 @@ key
 55NwTRr1fPA9ZChVHPonPlef6sRlaWGG
 secret
 AaWWvU7Ly59MSjn0
-
-## genres
-
-world
-health
-sports
-politics
-travel
-
-## references
-
-https://piccalil.li/tutorial/create-a-user-controlled-dark-or-light-mode/
-https://codepen.io/piccalilli/pen/VOELMZ
