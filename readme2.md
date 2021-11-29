@@ -19,7 +19,6 @@ settings filter
 
 hvis jeg sletter et item i archive, og tilføjer nye unikke items fra inbox, så kommer de gamle items tilbage.
   kan være det er meningen pga. jeg ikke opdaterer inbox.html så JSON bliver gemt
-hvis jeg tilføjer til archive og så opdaterer inbox.html fetches nyt data ikke - pga. settings-filter ???
 
 ## dev setup
 

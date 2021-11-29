@@ -39,7 +39,8 @@ document.querySelector("main").addEventListener("touchstart", (e) => {
     if (trash.length > 0) {
       localStorage.setItem("deleteditems", JSON.stringify(trash))
     } else {
-      localStorage.clear()
+      // localStorage.clear()
+      localStorage.removeItem("deleteditems")
     }
     setTimeout(() => {
       parentelement.classList.add("fadeout")
