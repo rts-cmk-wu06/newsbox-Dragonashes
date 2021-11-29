@@ -21,6 +21,10 @@ body {
   background: #fff;
 }
 
+.placeimg {
+  display: block;
+}
+
 
 h1 {
   font-size: 30px;
