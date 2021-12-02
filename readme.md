@@ -11,10 +11,19 @@ gulp
 
 ## todo
 
+
+save() -> save1()
 lav unificeret fetch
   skal bruge samme ID system som jeg bruger til archive.html
-settings filter
-  mangler slider
+
+jeg har ændret "deleteitem" tror jeg det var, jeg har kun IDs til første category fetch.
+
+category check sættes ikke ordenligt
+  Element.hasAttribute() ???
+dark/light mode kan forbedres
+
+test.html gemmer tilsat checked html attribute
+  overfør andetsteds
 
 ## dev setup
 
