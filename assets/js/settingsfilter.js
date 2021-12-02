@@ -1,12 +1,12 @@
-function save() {
+function save1() {
   var checkbox = document.querySelector('#checkbox1zaal1')
   localStorage.setItem('checkbox1zaal1', checkbox.checked)
 }
-function load() {
+function load1() {
   var checked = JSON.parse(localStorage.getItem('#checkbox1zaal1'))
   document.querySelector("#checkbox1zaal1").checked = checked
 }
-load();
+load1();
 
 function save2() {
   var checkbox = document.querySelector('#checkbox1zaal2')
