@@ -3,7 +3,7 @@
 ## beskrivelse
 
 Fetch fra New York Times API
-swipe-to-delete
+swipe-to-delete (første kategori)
 Dark Mode
 gulp
   minify
@@ -11,19 +11,13 @@ gulp
 
 ## todo
 
-
-save() -> save1()
-lav unificeret fetch
-  skal bruge samme ID system som jeg bruger til archive.html
-
-jeg har ændret "deleteitem" tror jeg det var, jeg har kun IDs til første category fetch.
-
+dark/light mode kan forbedres
 category check sættes ikke ordenligt
   Element.hasAttribute() ???
-dark/light mode kan forbedres
 
-test.html gemmer tilsat checked html attribute
-  overfør andetsteds
+lav unificeret fetch
+  skal bruge samme ID system som jeg bruger til archive.html
+  jeg har ændret "deleteitem" tror jeg det var, jeg har kun IDs til første category fetch.
 
 ## dev setup
 
