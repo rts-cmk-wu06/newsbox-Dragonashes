@@ -22,6 +22,22 @@ brug home api i stedet for top stories
     lav først når home api bruges.
       filter skal virke med archive categories
         dette er ikke nødvendigt, men er godt som eksempel
+
+fetch
+console log
+"section":"home" (ikke samme som results section)
+num_results":56,
+results":[
+  {"section":"world",}
+  {"section":"health",}
+  {"section":"business","subsection":"",
+  {"section":"us","subsection":"",}
+    {"section":"us","subsection":"politics",}
+  {"section":"travel",}
+
+
+
+mangler drag reload
 category check sættes ikke ordenligt
   Element.hasAttribute() ???
 
