@@ -15,19 +15,19 @@
 dark/light mode kan forbedres
   search box er hvid, skal være grå ??
   search placeholder tekst skal være hvid eller sort
-  inbox/archive profile img er kul hvid
 
 brug home api i stedet for top stories
   muligvis placer categories i array
   brug muligvis while loop
   https://api.nytimes.com/svc/topstories/v2/home.json?api-key=55NwTRr1fPA9ZChVHPonPlef6sRlaWGG
-
-category check sættes ikke ordenligt
-  Element.hasAttribute() ???
-
-lav unificeret fetch
   skal bruge samme ID system som jeg bruger til archive.html
   jeg har ændret "deleteitem" tror jeg det var, jeg har kun IDs til første category fetch.
+  archive mangler categories
+    lav først når home api bruges.
+      filter skal virke med archive categories
+        dette er ikke nødvendigt, men er godt som eksempel
+category check sættes ikke ordenligt
+  Element.hasAttribute() ???
 
 ## dev setup
 
