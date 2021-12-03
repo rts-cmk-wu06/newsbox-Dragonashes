@@ -12,9 +12,6 @@
 
 ## todo
 
-dark/light mode kan forbedres
-  search box er hvid, skal være grå ??
-  search placeholder tekst skal være hvid eller sort
 
 brug home api i stedet for top stories
   muligvis placer categories i array

@@ -9,7 +9,7 @@ JSON.parse(localStorage.getItem("deleteditems")).forEach((element) => {
   const div3 = document.createElement("div")
   div3.classList.add("jokeitem", "animate")
   // div3.textContent = result.name
-  div3.innerHTML = "<img src='assets/image/profile1.svg' class='placearticleitem1'>" + result.name
+  div3.innerHTML = "<img src='assets/image/profile1.svg' class='placearticleitem1'>" + "<span class='cardtext'>" + result.name + "</span>"
   div1.appendChild(div2)
   div1.appendChild(div3)
   document.querySelector("main").appendChild(div1)

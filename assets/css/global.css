@@ -48,7 +48,7 @@ h3 {
 }
 
 .cardtext {
-  font-size: 15px;
+  font-size: 12px;
   color: #6E8CA0;
 }
 
@@ -58,9 +58,9 @@ h3 {
 }
 
 .searchbg {
-  width: 80%;
+  width: 75%;
   grid-template-columns: 1fr;
-  background: #ededed;
+  background: #b9b9b9;
   place-items: center;
   display: grid;
   padding: 10px 30px 10px 30px;
@@ -71,6 +71,7 @@ input {
   height: 20px;
   border: none;
   grid-column: 1;
+  background: #b9b9b9;
 }
 
 .searchicon {
