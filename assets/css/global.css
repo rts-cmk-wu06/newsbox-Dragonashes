@@ -140,3 +140,45 @@ input {
     opacity: 0
   }
 }
+
+/* prefers colors */
+
+:root {
+  --color-mode: 'light';
+  --color-dark: #141414;
+  --color-dark-alpha: rgba(0, 0, 0, 0.1);
+  --color-light: #d4d4d4;
+  --color-light-alpha: rgba(255, 255, 255, 0.9);
+  --background: #fff;
+  --text-color: #141414;
+  --button-background: var(--color-dark);
+  --button-color: var(--color-light);
+  --border-color: var(--color-dark-alpha);
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: 'dark';
+  }
+
+  :root:not([data-user-color-scheme]) {
+    --background: var(--color-dark);
+    --text-color: var(--color-light);
+    --button-background: var(--color-light);
+    --button-color: var(--color-dark);
+    --border-color: var(--color-light-alpha);
+  }
+}
+
+[data-user-color-scheme="dark"] {
+  --background: var(--color-dark);
+  --text-color: var(--color-light);
+  --button-background: var(--color-light-alpha);
+  --button-color: var(--color-dark);
+  --border-color: var(--color-light-alpha);
+}
