@@ -40,7 +40,3 @@ body {
   color: var(--button-color);
   transition: background 500ms ease-in-out, color 200ms ease;
 }
-/* If there’s no JS, there’s no need for the user toggle component to show */
-/* .no-js {
-  display: none;
-} */
