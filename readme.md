@@ -2,12 +2,13 @@
 
 ## beskrivelse
 
-Fetch fra New York Times API
-swipe-to-delete (første kategori)
-Dark Mode
-gulp
-  minify
-  merge files
+- Fetch fra New York Times API
+  - fetch filter
+- swipe-to-delete (første kategori)
+- Dark Mode
+- gulp
+  - minify
+  - merge files
 
 ## todo
 
