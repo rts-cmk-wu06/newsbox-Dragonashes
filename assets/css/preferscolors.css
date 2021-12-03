@@ -10,16 +10,18 @@
   --button-color: var(--color-light);
   --border-color: var(--color-dark-alpha);
 }
+
 body {
   background: var(--background);
   color: var(--text-color);
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-mode: 'dark';
   }
+
   :root:not([data-user-color-scheme]) {
-    /* sættes til --color-light virker delvist men skal så trykke på toggle 3 gange pga. grå farve */
     --background: var(--color-dark);
     --text-color: var(--color-light);
     --button-background: var(--color-light);
@@ -27,6 +29,7 @@ body {
     --border-color: var(--color-light-alpha);
   }
 }
+
 [data-user-color-scheme="dark"] {
   --background: var(--color-dark);
   --text-color: var(--color-light);
@@ -34,6 +37,7 @@ body {
   --button-color: var(--color-dark);
   --border-color: var(--color-light-alpha);
 }
+
 .toggle-button {
   background: var(--button-background);
   color: var(--button-color);

@@ -128,12 +128,13 @@ input:checked+.slider:before {
 
 /* v2 */
 
-#checkbox1zaal1,#checkbox1zaal2,#checkbox1zaal3,#checkbox1zaal4,#checkbox1zaal5 {
+#checkbox1zaal1, #checkbox1zaal2, #checkbox1zaal3, #checkbox1zaal4, #checkbox1zaal5 {
   width: 50px;
   height: 50px;
   opacity: 1;
   display: none;
 }
+
 .cb,
 .rd {
   position: relative;
@@ -147,6 +148,7 @@ input:checked+.slider:before {
   grid-column: 2;
   place-self: end;
 }
+
 .cb::before,
 .rd::before {
   position: absolute;
@@ -160,6 +162,7 @@ input:checked+.slider:before {
   transition: 0.5s ease-in-out;
   border-radius: 50%;
 }
+
 .rd::before {
   top: 0.125em;
   left: 0.125em;
@@ -169,13 +172,16 @@ input:checked+.slider:before {
   border-radius: 0.5em;
   content: '';
 }
+
 input[type="checkbox"]:checked+.cb,
 input[type="radio"]:checked+.rd {
   background-color: #2196f3;
 }
-input[type="checkbox"]:checked+.cb::before{
+
+input[type="checkbox"]:checked+.cb::before {
   transform: translateX(1em);
 }
+
 input[type="radio"]:checked+.rd::before {
   transform: translateX(0.5em);
 }
