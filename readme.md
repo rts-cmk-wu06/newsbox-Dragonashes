@@ -14,7 +14,8 @@
 
 dark/light mode kan forbedres
   search box er hvid, skal være grå ??
-  overfør preferscolors.css til global.css
+  search placeholder tekst skal være hvid eller sort
+  inbox/archive profile img er kul hvid
 
 brug home api i stedet for top stories
   muligvis placer categories i array

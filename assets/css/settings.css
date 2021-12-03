@@ -72,8 +72,6 @@ body {
 
 /* fetch filter buttons */
 
-/* v2 */
-
 #checkbox1zaal1, #checkbox1zaal2, #checkbox1zaal3, #checkbox1zaal4, #checkbox1zaal5 {
   width: 50px;
   height: 50px;
@@ -81,8 +79,7 @@ body {
   display: none;
 }
 
-.cb,
-.rd {
+.cb {
   position: relative;
   display: block;
   width: 2.5em;
@@ -95,8 +92,7 @@ body {
   place-self: end;
 }
 
-.cb::before,
-.rd::before {
+.cb::before {
   position: absolute;
   top: 0.25em;
   left: 0.25em;
@@ -104,32 +100,17 @@ body {
   height: 1em;
   line-height: 0.75em;
   content: '';
-  background-color: #fff;
+  background: #fff;
   transition: 0.5s ease-in-out;
   border-radius: 50%;
 }
 
-.rd::before {
-  top: 0.125em;
-  left: 0.125em;
-  width: 0.5em;
-  height: 0.5em;
-  font-size: 2em;
-  border-radius: 0.5em;
-  content: '';
-}
-
-input[type="checkbox"]:checked+.cb,
-input[type="radio"]:checked+.rd {
+input[type="checkbox"]:checked+.cb {
   background-color: #2196f3;
 }
 
 input[type="checkbox"]:checked+.cb::before {
   transform: translateX(1em);
-}
-
-input[type="radio"]:checked+.rd::before {
-  transform: translateX(0.5em);
 }
 
 /* color mode button */
