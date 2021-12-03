@@ -12,7 +12,6 @@
 
 ## todo
 
-
 brug home api i stedet for top stories
   muligvis placer categories i array
   brug muligvis while loop

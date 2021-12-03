@@ -1,29 +1,20 @@
 function load1() {
-  var checked = JSON.parse(localStorage.getItem('checkbox1zaal1'))
-  document.querySelector("#checkbox1zaal1").checked = checked
+  document.querySelector("#checkbox1zaal1").checked = JSON.parse(localStorage.getItem('checkbox1zaal1'))
 }
 load1();
-
 function load2() {
-  var checked = JSON.parse(localStorage.getItem('checkbox1zaal2'))
-  document.querySelector("#checkbox1zaal2").checked = checked
+  document.querySelector("#checkbox1zaal2").checked = JSON.parse(localStorage.getItem('checkbox1zaal2'))
 }
 load2();
-
 function load3() {
-  var checked = JSON.parse(localStorage.getItem('checkbox1zaal3'))
-  document.querySelector("#checkbox1zaal3").checked = checked
+  document.querySelector("#checkbox1zaal3").checked = JSON.parse(localStorage.getItem('checkbox1zaal3'))
 }
 load3();
-
 function load4() {
-  var checked = JSON.parse(localStorage.getItem('checkbox1zaal4'))
-  document.querySelector("#checkbox1zaal4").checked = checked
+  document.querySelector("#checkbox1zaal4").checked = JSON.parse(localStorage.getItem('checkbox1zaal4'))
 }
 load4();
-
 function load5() {
-  var checked = JSON.parse(localStorage.getItem('checkbox1zaal5'))
-  document.querySelector("#checkbox1zaal5").checked = checked
+  document.querySelector("#checkbox1zaal5").checked = JSON.parse(localStorage.getItem('checkbox1zaal5'))
 }
 load5();
